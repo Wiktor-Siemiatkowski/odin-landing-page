@@ -117,17 +117,52 @@ h2 {
 .quote {
     background-color: #E5E7EB;
     padding: 50px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .quotetxt {
+    max-width: 500px;
     color: #1F2937;
     font-size: 36px;
-    text-align: start;
+    text-align: left;
     margin-bottom: 0;
 }
 .author {
-    text-align: end;
+    margin-left: 250px;
     margin-top: 0;
-
 }
 /* Quote End */
+/* Call to action Start */
+.cta {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 50px 300px;
+    border-radius: 25px;
+}
+.ctamt,
+.ctast {
+    color: white;
+    text-align: start;
+    margin: 0;
+}
+
+.ctamt {
+font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    height: 75px;
+}
+
+#btn1 {
+    border: solid white;
+}
